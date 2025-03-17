@@ -1,0 +1,43 @@
+# macOS specific files
+.DS_Store
+.DS_Store*
+.localized/
+.Trash-*
+.Spotlight-V100
+.TemporaryItems
+.apdisk
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent.
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# VS Code settings
+.vscode/
+.vscode/*
+! .vscode/settings.json # Optionally include specific settings files
+! .vscode/launch.json # Optionally include specific launch files
+
+# Project-specific files/folders
+node_modules/
+venv/
+*.pyc
+*.log
+*.tmp
+*.swp
+target/
+
+# Other common files
+*.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.cache
